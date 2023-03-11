@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\EducationGB\\14.Intro_C#_S\\HW_2\\Task_10\\Task_10.csproj": {}
+    "E:\\EducationGB\\14.Intro_C#_S\\HW_C_language_course\\HW_2\\Task_10\\Task_10.csproj": {}
   },
   "projects": {
-    "E:\\EducationGB\\14.Intro_C#_S\\HW_2\\Task_10\\Task_10.csproj": {
+    "E:\\EducationGB\\14.Intro_C#_S\\HW_C_language_course\\HW_2\\Task_10\\Task_10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\EducationGB\\14.Intro_C#_S\\HW_2\\Task_10\\Task_10.csproj",
+        "projectUniqueName": "E:\\EducationGB\\14.Intro_C#_S\\HW_C_language_course\\HW_2\\Task_10\\Task_10.csproj",
         "projectName": "Task_10",
-        "projectPath": "E:\\EducationGB\\14.Intro_C#_S\\HW_2\\Task_10\\Task_10.csproj",
+        "projectPath": "E:\\EducationGB\\14.Intro_C#_S\\HW_C_language_course\\HW_2\\Task_10\\Task_10.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "E:\\EducationGB\\14.Intro_C#_S\\HW_2\\Task_10\\obj\\",
+        "outputPath": "E:\\EducationGB\\14.Intro_C#_S\\HW_C_language_course\\HW_2\\Task_10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config"
