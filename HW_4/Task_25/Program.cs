@@ -9,24 +9,29 @@ int ReadInt(string text)
     return Convert.ToInt32(Console.ReadLine());
 }
 
+bool ValidatePower(int B)
+{
+    if (B < 0)
+    {
+        System.Console.WriteLine("Степень не должна быть меньше нуля");
+        return false;
+    }
+    return true;
+}
+
 int Exponentiation(int A, int B)
 {
-    if (B > 0)
+    int result = 1;
+    for (int i = 0; i < B; i++)
     {
-        int result = 1;
-        for (int i = 1; i <= B; i++)
-        {
-            result *= A;
-        }
-        return result;
+        result *= A;
     }
-    else
-    {
-        return 1;
-    }
-
+    return result;
 }
 
 int number = ReadInt("Введите число А: ");
-int number2 = ReadInt("Введите число B: ");
-System.Console.WriteLine($"Число {number} в степени {number2} = {Exponentiation(number, number2)}");
+int power = ReadInt("Введите число B: ");
+if(ValidatePower(power))
+{
+    System.Console.WriteLine($"Число {number} в степени {power} = {Exponentiation(number, power)}");
+} 
