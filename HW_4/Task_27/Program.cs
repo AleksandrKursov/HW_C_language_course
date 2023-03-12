@@ -12,13 +12,11 @@ int ReadInt(string text)
 
 int SumDigit(int number)
 {
-    int i = 0;
     int sum = 0;
     while (number > 0)
     {
         sum += number % 10;
         number /= 10;
-        i++;
     }
     return sum;
 }
