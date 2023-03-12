@@ -31,7 +31,7 @@ int Exponentiation(int A, int B)
 
 int number = ReadInt("Введите число А: ");
 int power = ReadInt("Введите число B: ");
-if(ValidatePower(power))
+if (ValidatePower(power))
 {
     System.Console.WriteLine($"Число {number} в степени {power} = {Exponentiation(number, power)}");
-} 
+}
