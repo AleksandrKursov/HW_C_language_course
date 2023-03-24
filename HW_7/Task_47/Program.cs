@@ -33,7 +33,7 @@ void PrintMatrix(double[,] matr)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            System.Console.Write(matr[i, j] + "  ");
+            System.Console.Write(matr[i, j] + "\t");
         }
         System.Console.WriteLine();
     }
