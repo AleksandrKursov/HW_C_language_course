@@ -1,0 +1,15 @@
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\obj\Debug\net6.0\Task_52.csproj.AssemblyReference.cache
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\obj\Debug\net6.0\Task_52.GeneratedMSBuildEditorConfig.editorconfig
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\obj\Debug\net6.0\Task_52.AssemblyInfoInputs.cache
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\obj\Debug\net6.0\Task_52.AssemblyInfo.cs
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\obj\Debug\net6.0\Task_52.csproj.CoreCompileInputs.cache
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\bin\Debug\net6.0\Task_52.exe
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\bin\Debug\net6.0\Task_52.deps.json
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\bin\Debug\net6.0\Task_52.runtimeconfig.json
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\bin\Debug\net6.0\Task_52.dll
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\bin\Debug\net6.0\Task_52.pdb
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\obj\Debug\net6.0\Task_52.dll
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\obj\Debug\net6.0\refint\Task_52.dll
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\obj\Debug\net6.0\Task_52.pdb
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\obj\Debug\net6.0\Task_52.genruntimeconfig.cache
+E:\EducationGB\14.Intro_C#_S\HW_C_language_course\HW_7\Task_52\obj\Debug\net6.0\ref\Task_52.dll
