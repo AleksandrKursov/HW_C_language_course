@@ -43,9 +43,9 @@ void PrintMatrix(int[,] matr)
 
 bool CheckPossibilityMultiplication(int m, int n, int k, int l)
 {
-    if (m == k && n == l || m == l && n == k)
+        if (n == k)
     {
-        System.Console.WriteLine($"Matrices {m}-by-{n} and {k}-by{l} can be multiplied");
+        System.Console.WriteLine($"Matrices {m}-by-{n} and {k}-by-{l} can be multiplied");
         return true;
     }
     else
@@ -54,7 +54,7 @@ bool CheckPossibilityMultiplication(int m, int n, int k, int l)
     }
 }
 
-int[,] MultiplicationMatrices(int[,] firstMatrix, int[,] secondMatrix, bool canOrCannot)
+void MultiplicationMatrices(int[,] firstMatrix, int[,] secondMatrix, bool canOrCannot)
 {
     if (canOrCannot == true)
     {
@@ -67,13 +67,14 @@ int[,] MultiplicationMatrices(int[,] firstMatrix, int[,] secondMatrix, bool canO
                 {
                     newMatrix[i, j] = newMatrix[i, j] + firstMatrix[i, k] * secondMatrix[k, j];
                 }
+                System.Console.Write(newMatrix[i, j] + "\t");
             }
+            System.Console.WriteLine();
         }
-        return newMatrix;
-    }   
+    }
     else
     {
-        throw new Exception("Matrices cannot be multiplied multiplied!");
+        System.Console.WriteLine("Matrices cannot be multiplied!");
     }
 }
 
@@ -94,8 +95,6 @@ System.Console.WriteLine();
 
 bool canOrCannot = CheckPossibilityMultiplication(m, n, k, l);
 System.Console.WriteLine();
-int[,] newMatrix = MultiplicationMatrices(firstMatrix, secondMatrix, canOrCannot);
-
 System.Console.WriteLine("New matrix: ");
-PrintMatrix(newMatrix);
+MultiplicationMatrices(firstMatrix, secondMatrix, canOrCannot);
 System.Console.WriteLine();
