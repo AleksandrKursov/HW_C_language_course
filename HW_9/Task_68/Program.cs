@@ -32,7 +32,7 @@ int m = ReadInt("Enter the number m: ");
 int n = ReadInt("Enter the number n: ");
 if (CheckForNegativeNumbers(m, n) == true)
 {
-    System.Console.Write($"Сalculated number by Ackermann function: ");
+    System.Console.Write($"Сalculated number by Ackermann function A(m, n) = ");
     System.Console.WriteLine(FunctionAckerman(m, n));
     System.Console.WriteLine();
 }
