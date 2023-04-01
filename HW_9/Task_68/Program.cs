@@ -22,7 +22,7 @@ bool CheckForNegativeNumbers(int m, int n)
 int FunctionAckerman(int m, int n)
 {
     if (m == 0) return n + 1;
-    // else if (m > 0 && n == 0) return FunctionAckerman(m - 1, 1); Необязательно задавать условие, что m > 0, так как ранее m и n проверены на отрицательные значения.
+    // else if (m > 0 && n == 0) return FunctionAckerman(m - 1, 1); Необязательно задавать условие m > 0, так как ранее m и n проверены на отрицательные значения.
     else if (n == 0) return FunctionAckerman(m - 1, 1);
     else return FunctionAckerman(m - 1, FunctionAckerman(m, n - 1));
 }
